@@ -1,6 +1,6 @@
 package websocket;
 
 public class test {
-	int a;
+	int a67890;
 
 }
