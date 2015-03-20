@@ -1,6 +1,8 @@
 package websocket;
 
 public class test {
-	int a;
-
+	int a12345;
+	int b;
+	int c;
+	int d;
 }
