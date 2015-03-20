@@ -28,7 +28,8 @@ public class HelloMessageInbound extends StreamInbound {
 
 	@Override
 	protected void onClose(int status) {
-		System.out.println(String.format(FORMAT, WS_NAME, "closing ......"));
+		System.out.println(String.format(FORMAT, WS_NAME,
+				"closing herehreh ......"));
 		super.onClose(status);
 		HelloWebSocketServlet.getSocketList().remove(this);
 	}
